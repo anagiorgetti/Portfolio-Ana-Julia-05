@@ -1,14 +1,41 @@
+html{
+    background-color: white;
+    margin: 2cm;
+}
+
 body{
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(129, 129, 129);
     display: block;
     justify-content: center;
 align-items: center;
-height: 100vh;
-border: gray 3px;
+height: auto;
+border: rgb(0, 0, 0) solid 5px;
+text-align: center;
+border-radius: 20px;
+padding-top: 1rem;
 }
 
 img{
     border-radius: 120px;
 width: 100px;
 height: 100px;
+}
+.perfil{
+    color: rgb(0, 0, 0);
+}
+.desc{
+    color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+a{
+    margin: 5px;
+    background-color: rgb(182, 177, 177);
+    padding: 3px;
+    border-radius: 5px;
+}
+h2{
+    text-align: left;
 }
